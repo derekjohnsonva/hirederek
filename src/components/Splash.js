@@ -1,13 +1,14 @@
-import './Splash.css';
-import Wrapper from './Wrapper'
+import StyledSplash from "./styled/StyledSplash";
+import Title from "./styled/Title";
 
 function Splash() {
   return (
-      <div>
+    <StyledSplash>
+      <Title>
         <h1>Derek Johnson</h1>
-        <hr/>
         <h3>Resume & Repo</h3>
-      </div>
+      </Title>
+    </StyledSplash>
   );
 }
 
