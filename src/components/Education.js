@@ -1,8 +1,10 @@
 import Card from "./Card";
 import Header from "./Header";
+import StyledEducation, {Box, BoxHead, BoxBody} from "./styled/StyledEducation";
+
 function Education() {
   return (
-    <div className="Education">
+    <StyledEducation>
       <Header
         title="Education"
         subtitle="“Errors of opinion may be tolerated where reason is left free to combat it” -Thomas Jefferson"
@@ -14,18 +16,22 @@ function Education() {
         details="I began at UVA as an engineer and quickly fell in love with coding. After my first CS class I knew I wanted it to be my major. I maintain a 3.67 GPA. During my first year I became a founding member of the UVA blockchain club."
       />
       <div className="Boxes">
-        <div className="Box">
-          <h3>Relavent Corses</h3>
-          <ul>
-            <li>Algorithms</li>
-            <li>Blockchain Technology</li>
-            <li>Compilers</li>
-            <li>Moble App Development</li>
-            <li>Software Development</li>
-            <li>Operating Systems</li>
-          </ul>
-        </div>
-        <div className="Box">
+        <Box>
+          <BoxHead>
+            <h3>Relavent Courses</h3>
+          </BoxHead>
+          <BoxBody>
+            <ul>
+              <li>Algorithms</li>
+              <li>Blockchain Technology</li>
+              <li>Compilers</li>
+              <li>Moble App Development</li>
+              <li>Software Development</li>
+              <li>Operating Systems</li>
+            </ul>
+          </BoxBody>
+        </Box>
+        <Box>
           <h3>Languages I Know</h3>
           <ul>
             <li>Python</li>
@@ -34,8 +40,8 @@ function Education() {
             <li>JavaScript</li>
             <li>Rust</li>
           </ul>
-        </div>
-        <div className="Box">
+        </Box>
+        <Box>
           <h3>Skills</h3>
           <div className="Row">
             <p className="Bold">Web Development:</p>
@@ -49,9 +55,9 @@ function Education() {
             <p className="Bold">Software Development</p>
             <p>Git, Scrum, Bash Scripting, Cloud Computing</p>
           </div>
-        </div>
+        </Box>
       </div>
-    </div>
+    </StyledEducation>
   );
 }
 

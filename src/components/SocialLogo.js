@@ -36,7 +36,7 @@ function SocialLogo(props) {
   return (
     <IconStyleWrapper>
       <a href={link}>
-        <TheIcon />
+        <TheIcon/>
       </a>
     </IconStyleWrapper>
   );

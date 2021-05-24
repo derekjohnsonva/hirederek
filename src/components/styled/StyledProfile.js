@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const StyledProfile = styled.div`
   background: ${(props) => props.theme.colors.lightblue};
+  padding: 3rem;
   justify-content: center;
   align-items: center;
   text-align: center;

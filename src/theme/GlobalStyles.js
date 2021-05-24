@@ -38,12 +38,11 @@ h4 {
     font-size: 1.563rem;
     
 };
-p {
+p, li, strong {
     font-style: normal;
-    font-weight: normal;
-    font-size: .8rem;
+    font-size: .9rem;
     line-height: 1.2rem;
-}
+};
 `;
 
 export default GlobalStyle;

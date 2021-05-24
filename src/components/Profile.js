@@ -35,7 +35,7 @@ function Profile() {
             </p>
           </AboutMe>
           <ProfilePic>
-            <img src={profilePic} />
+            <img tabindex="1" src={profilePic} alt="Picture of Derek"/>
           </ProfilePic>
         </Boxes>
         <Details>
@@ -50,14 +50,17 @@ function Profile() {
             <SocialLogo
               icon={Twitter}
               link="https://twitter.com/derekjohnsonva"
+              label="link to Derek's Twitter"
             />
             <SocialLogo
               icon={LinkedinBox}
               link="https://www.linkedin.com/in/derek-johnson-88464116a/"
+              label="link to Derek's Linkedin"
             />
             <SocialLogo
               icon={GithubOutline}
               link="https://github.com/derekjohnsonva"
+              label="link to Derek's Github"
             />
           </SocialLogos>
         </Details>
