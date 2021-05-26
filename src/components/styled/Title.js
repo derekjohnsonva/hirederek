@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import treeBackground from "../../images/treeBackground.jpg";
 
 const Title = styled.div`
   position: relative;

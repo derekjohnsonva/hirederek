@@ -10,8 +10,7 @@ const StyledProfile = styled.div`
 
 export const AboutMe = styled.div`
   max-width: 17rem;
-  height: 100%;
-  padding: 1rem 3rem;
+  margin: 1rem 3rem;
   justify-content: flex-start;
 `;
 export const Boxes = styled.div`
@@ -26,15 +25,13 @@ export const Boxes = styled.div`
 
 export const ProfilePic = styled.div`
   max-width: 17rem;
-  width: 100%;
-  padding: 1rem 3rem;
+  margin: 1rem 3rem;
   img {
     width: 100%;
   }
 `;
 
 export const Details = styled.div`
-  width: 100%;
 `;
 export const SocialLogos = styled.div`
   flex-direction: row;

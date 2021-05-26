@@ -30,12 +30,14 @@ function Profile() {
               I am currently a student at the University of Virginia studying
               Computer Science. I am a well balanced developer with experience
               in both front and back end we development. I enjoy the dichotomy
-              between creativity and structure that comes with coding. In my
-              free time I run for the varsity track team at UVA and play guitar.
+              between creativity and structure that comes with coding. <br />
+              <br />
+              In my free time I run for the varsity track team at UVA and play
+              guitar.
             </p>
           </AboutMe>
           <ProfilePic>
-            <img tabindex="1" src={profilePic} alt="Picture of Derek"/>
+            <img tabindex="1" src={profilePic} alt="Derek's Profile" />
           </ProfilePic>
         </Boxes>
         <Details>

@@ -1,15 +1,14 @@
 const size = {
-  mobileS: '320px',
-  mobileM: '375px',
-  mobileL: '425px',
-  tablet: '768px',
-  laptop: '1024px',
-  laptopL: '1440px',
-  desktop: '2560px'
-}
+  mobileS: "320px",
+  mobileM: "375px",
+  mobileL: "425px",
+  tablet: "768px",
+  laptop: "1024px",
+  laptopL: "1440px",
+  desktop: "2560px",
+};
 
-
-export default {
+const Theme =  {
   colors: {
     maroon: "hsla(330, 37%, 25%, 1)",
     darkgreen: "hsla(151, 29%, 40%, 1)",
@@ -29,6 +28,8 @@ export default {
     laptop: `(min-width: ${size.laptop})`,
     laptopL: `(min-width: ${size.laptopL})`,
     desktop: `(min-width: ${size.desktop})`,
-    desktopL: `(min-width: ${size.desktop})`
+    desktopL: `(min-width: ${size.desktop})`,
   },
 };
+
+export default Theme;

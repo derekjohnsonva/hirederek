@@ -9,13 +9,40 @@ const StyledEducation = styled.div`
 `;
 
 export const Box = styled.div`
-    border-style: solid;
-    border-color: ${(props) => props.theme.colors.green};
+  border-style: solid;
+  border-color: ${(props) => props.theme.colors.green};
+  max-width: 30rem;
+  margin: 1rem;
 `;
 
-export const BoxHead = styled.div`
+export const TwoColumnList = styled.div`
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-position: outside;
+  & > *{
+    flex: 1 0 calc(50% - 10px);
+    margin-bottom: .5rem;
+  };
 `;
+
+export const BoxHead = styled.div``;
 export const BoxBody = styled.div`
-    text-align: left;
+  text-align: left;
+  padding: 0 1rem;
+`;
+export const Boxes = styled.div`
+  flex-direction: column;
+  align-items: center;
+  max-width: 70rem;
+  @media ${(props) => props.theme.device.tablet} {
+    flex-direction: row;
+  }
+`;
+
+export const LeftBoxes = styled.div`
+  height: 100%;
+`;
+export const RightBoxes = styled.div`
+  height: 100%;
 `;
 export default StyledEducation;

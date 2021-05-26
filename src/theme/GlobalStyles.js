@@ -38,7 +38,7 @@ h4 {
     font-size: 1.563rem;
     
 };
-p, li, strong {
+p, li, strong, em {
     font-style: normal;
     font-size: .9rem;
     line-height: 1.2rem;
