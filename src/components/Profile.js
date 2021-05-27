@@ -21,15 +21,15 @@ function Profile() {
       <Content>
         <Header
           title="Profile"
-          subtitle="I'm a student, a runner, and a developer"
+          subtitle="I'm a student, a runner, and a developer."
         />
         <Boxes>
           <AboutMe>
             <h3>About Me</h3>
             <p>
               I am currently a student at the University of Virginia studying
-              Computer Science. I am a well balanced developer with experience
-              in both front and back end we development. I enjoy the dichotomy
+              computer science. I am a well balanced developer with experience
+              in both front and back end development. I enjoy the dichotomy
               between creativity and structure that comes with coding. <br />
               <br />
               In my free time I run for the varsity track team at UVA and play

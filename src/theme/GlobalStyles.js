@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 div{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Domine", serif;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
