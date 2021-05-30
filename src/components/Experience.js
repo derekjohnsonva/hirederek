@@ -19,7 +19,7 @@ function Experience() {
         organization="Leidos"
         dateRange="Jun 2019 - Aug 2019"
         title="Systems Integration Intern"
-        details="Worked on an R&D project exploring containerizing virtual network functions. Built a frontend using the Django framework for demo purposes"
+        details="Worked on an R&D project exploring containerizing virtual network functions. Built a front-end using the Django framework for demo purposes"
       />
     </StyledExperience>
   );
