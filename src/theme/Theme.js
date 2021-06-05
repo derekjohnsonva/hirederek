@@ -17,6 +17,11 @@ const Theme =  {
     yellow: "hsla(53, 66%, 79%, 1)",
     lightblue: "hsla(152, 32%, 92%, 1)",
     black: "hsla(0, 0%, 0%, 1)",
+
+    primaryLight: "",
+    secondaryLight: "",
+    primaryDark: "",
+    secondaryDark: "",
   },
   fonts: ["Arial", "Helvetica", "sans-serif"],
 

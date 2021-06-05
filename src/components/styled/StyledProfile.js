@@ -9,10 +9,15 @@ const StyledProfile = styled.div`
 `;
 
 export const AboutMe = styled.div`
-  max-width: 17rem;
+  max-width: 12.5rem;
   margin: 1rem 3rem;
   justify-content: flex-start;
 `;
+
+export const AboutMeBody = styled.div`
+  text-align: left;
+`;
+
 export const Boxes = styled.div`
   flex-direction: column;
   height: 100%;

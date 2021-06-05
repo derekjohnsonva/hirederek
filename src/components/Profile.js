@@ -6,6 +6,7 @@ import { GithubOutline } from "@styled-icons/evaicons-outline/GithubOutline";
 
 import StyledProfile, {
   AboutMe,
+  AboutMeBody,
   Boxes,
   Details,
   SocialLogos,
@@ -26,15 +27,17 @@ function Profile() {
         <Boxes>
           <AboutMe>
             <h3>About Me</h3>
-            <p>
-              I am currently a student at the University of Virginia studying
-              computer science. I am a well balanced developer with experience
-              in both front and back-end development. I enjoy the dichotomy
-              between creativity and structure that comes with coding. <br />
-              <br />
-              In my free time I run for the varsity track team at UVA and play
-              guitar.
-            </p>
+            <AboutMeBody>
+              <p>
+                I am currently a student at the University of Virginia studying
+                computer science. I am a well balanced developer with experience
+                in both front and back-end development. I enjoy the dichotomy
+                between creativity and structure that comes with coding. <br />
+                <br />
+                In my free time I run for the varsity track team at UVA and play
+                guitar.
+              </p>
+            </AboutMeBody>
           </AboutMe>
           <ProfilePic>
             <img tabindex="1" src={profilePic} alt="Derek's Profile" />
