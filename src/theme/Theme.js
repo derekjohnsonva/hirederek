@@ -18,10 +18,12 @@ const Theme =  {
     lightblue: "hsla(152, 32%, 92%, 1)",
     black: "hsla(0, 0%, 0%, 1)",
 
-    primaryLight: "",
-    secondaryLight: "",
-    primaryDark: "",
-    secondaryDark: "",
+    primaryLight: "hsla(52, 50%, 91%, 1)",
+    secondaryLight: "hsla(152, 32%, 92%, 1)",
+    primaryDark: "hsla(151, 24%, 60%, 1)",
+    secondaryDark: "hsla(13, 68%, 63%, 1)",
+    darkText: "hsla(234, 20%, 30%, 1)",
+    lightText: "hsla(52, 50%, 91%, 1)",
   },
   fonts: ["Arial", "Helvetica", "sans-serif"],
 

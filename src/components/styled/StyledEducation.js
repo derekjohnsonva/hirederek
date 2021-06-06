@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledEducation = styled.div`
-  background: ${(props) => props.theme.colors.yellow};
+  background: ${(props) => props.theme.colors.secondaryLight};
   padding: 3rem;
   justify-content: center;
   align-items: center;
@@ -10,7 +10,7 @@ const StyledEducation = styled.div`
 
 export const Box = styled.div`
   border-style: solid;
-  border-color: ${(props) => props.theme.colors.green};
+  border-color: ${(props) => props.theme.colors.primaryDark};
   max-width: 30rem;
   margin: 1rem;
 `;

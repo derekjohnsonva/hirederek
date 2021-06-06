@@ -21,6 +21,7 @@ function Profile() {
     <StyledProfile>
       <Content>
         <Header
+          dark={true}
           title="Profile"
           subtitle="I'm a student, a runner, and a developer."
         />

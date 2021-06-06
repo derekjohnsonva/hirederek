@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledRunning = styled.div`
-  background: ${(props) => props.theme.colors.lightgreen};
+  background: ${(props) => props.theme.colors.primaryDark};
   padding: 3rem;
   justify-content: center;
   align-items: center;

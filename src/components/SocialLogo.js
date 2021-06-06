@@ -9,7 +9,7 @@ const IconStyleWrapper = styled.div`
       padding: 1rem;
   };
   ${StyledIconBase}:hover {
-        color: ${Theme.colors.green};
+        color: ${Theme.colors.primaryDark};
 
         /* Start the shake animation and make the animation last for 0.5 seconds */
         animation: shake 0.2s;

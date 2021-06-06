@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledProfile = styled.div`
-  background: ${(props) => props.theme.colors.lightblue};
+  background: ${(props) => props.theme.colors.primaryLight};
   padding: 3rem;
   justify-content: center;
   align-items: center;
@@ -20,11 +20,10 @@ export const AboutMeBody = styled.div`
 
 export const Boxes = styled.div`
   flex-direction: column;
+  align-items: center;
   height: 100%;
   @media ${(props) => props.theme.device.tablet} {
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
   }
 `;
 

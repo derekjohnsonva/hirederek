@@ -15,6 +15,7 @@ function Education() {
   return (
     <StyledEducation>
       <Header
+        dark={true}
         title="Education"
         subtitle="“Errors of opinion may be tolerated where reason is left free to combat it” -Thomas Jefferson"
       />
@@ -43,7 +44,7 @@ function Education() {
         <LeftBoxes>
           <Box>
             <BoxHead>
-              <h3>Languages I Know</h3>
+              <h3>Languages</h3>
             </BoxHead>
             <BoxBody>
               <TwoColumnList>
@@ -59,7 +60,7 @@ function Education() {
         <RightBoxes>
           <Box>
             <BoxHead>
-              <h3>Skills</h3>
+              <h3>Technical Skills</h3>
             </BoxHead>
             <BoxBody>
               <SkillEntry
