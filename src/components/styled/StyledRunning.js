@@ -10,10 +10,13 @@ const StyledRunning = styled.div`
 
 export const Paragraph = styled.div`
   text-align: left;
+  max-width: 50rem;
+  margin: 3rem 0rem;
 `;
 export const PRTable = styled.table`
   border-collapse: collapse;
   width: 17rem;
+  color: ${(props) => props.theme.colors.darkText};
   td,
   th {
     width: 50%;
@@ -36,5 +39,6 @@ export const PRTable = styled.table`
 
 export const SectionHead = styled.div`
   max-width: 17rem;
+  color: ${(props) => props.theme.colors.primaryLight};
 `;
 export default StyledRunning;

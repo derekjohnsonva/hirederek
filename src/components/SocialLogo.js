@@ -3,13 +3,13 @@ import { StyledIconBase } from "@styled-icons/styled-icon";
 import Theme from "../theme/Theme";
 const IconStyleWrapper = styled.div`
   ${StyledIconBase} {
-      color: ${Theme.colors.maroon};
+      color: ${Theme.colors.linkDark};
       width: 2.5rem;
       height: 2.5rem;
       padding: 1rem;
   };
   ${StyledIconBase}:hover {
-        color: ${Theme.colors.primaryDark};
+        color: ${Theme.colors.linkLight};
 
         /* Start the shake animation and make the animation last for 0.5 seconds */
         animation: shake 0.2s;

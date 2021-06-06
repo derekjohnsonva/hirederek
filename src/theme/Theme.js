@@ -10,14 +10,8 @@ const size = {
 
 const Theme =  {
   colors: {
-    maroon: "hsla(330, 37%, 25%, 1)",
-    darkgreen: "hsla(151, 29%, 40%, 1)",
-    green: "hsla(152, 41%, 52%, 1)",
-    lightgreen: "hsla(106, 33%, 74%, 1)",
-    yellow: "hsla(53, 66%, 79%, 1)",
-    lightblue: "hsla(152, 32%, 92%, 1)",
-    black: "hsla(0, 0%, 0%, 1)",
-
+    linkDark: "hsla(330, 37%, 25%, 1)",
+    linkLight: "hsla(152, 41%, 52%, 1)",
     primaryLight: "hsla(52, 50%, 91%, 1)",
     secondaryLight: "hsla(152, 32%, 92%, 1)",
     primaryDark: "hsla(151, 24%, 60%, 1)",

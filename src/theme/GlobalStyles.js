@@ -26,13 +26,13 @@ h2 {
 h3 {
     font-style: normal;
     font-weight: 500;
-    font-size: 1.953rem;
+    font-size: 1.6rem;
     padding: 1rem;
 };
 h4 {
     font-style: normal;
     font-weight: normal;
-    font-size: 1.563rem;
+    font-size: 1.3rem;
     
 };
 p, li, strong, em {
