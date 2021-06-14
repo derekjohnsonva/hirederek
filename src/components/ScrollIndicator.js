@@ -36,7 +36,7 @@ const Wheel = styled.div`
   width: 4px;
   border: 2px solid;
   border-radius: 8px;
-  animation: ${wheelAnimation} 0.6s linear infinite;
+  /* animation: ${wheelAnimation} 0.6s linear infinite; */
 `;
 
 const scrollAnimation = keyframes`

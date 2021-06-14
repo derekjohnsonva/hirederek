@@ -8,6 +8,7 @@ const StyledCard = styled.div`
   padding: 2rem 0rem;
   @media ${(props) => props.theme.device.tablet} {
     flex-direction: row;
+    align-items: start;
     justify-content: space-between;
     text-align: left;
   }
@@ -17,7 +18,7 @@ const RightColumn = styled.div`
   width: 100%;
   max-width: 17rem;
   & > * {
-    padding: 0 0 .5rem 0;
+    margin: 0 0 .5rem 0;
   }
 `;
 
@@ -30,11 +31,17 @@ const LeftColumn = styled.div`
   }
 `;
 
+const Title = styled.h3`
+@media ${(props) => props.theme.device.tablet} {
+    max-width: 9rem
+  }
+`;
+
 function Card(props) {
   return (
     <StyledCard>
       <LeftColumn>
-        <h3>{props.organization}</h3>
+        <Title>{props.organization}</Title>
         <p>
           <em>{props.dateRange}</em>
         </p>

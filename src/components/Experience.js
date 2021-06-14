@@ -1,6 +1,9 @@
 import Card from "./Card";
 import Header from "./Header";
-import StyledExperience from "./styled/StyledExperience";
+import StyledExperience, {
+  ColoredSlash,
+  RelDiv,
+} from "./styled/StyledExperience";
 
 function Experience() {
   return (
@@ -21,6 +24,7 @@ function Experience() {
         title="Systems Integration Intern"
         details="Worked on an R&D project exploring containerizing virtual network functions. Built a front-end using the Django framework for demo purposes"
       />
+      {/* <ColoredSlash></ColoredSlash> */}
     </StyledExperience>
   );
 }

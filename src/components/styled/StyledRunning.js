@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledRunning = styled.div`
-  background: ${(props) => props.theme.colors.primaryDark};
+  background: ${(props) => props.theme.colors.secondaryDark};
   padding: 3rem;
   justify-content: center;
   align-items: center;
@@ -12,6 +12,9 @@ export const Paragraph = styled.div`
   text-align: left;
   max-width: 50rem;
   margin: 3rem 0rem;
+  p {
+    color: ${(props) => props.theme.colors.primaryLight}
+  }
 `;
 export const PRTable = styled.table`
   border-collapse: collapse;

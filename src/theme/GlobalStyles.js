@@ -15,7 +15,7 @@ div{
 };
 h1 {
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 3em;
     color: ${(props) => props.theme.colors.lightblue};  
 };
 h2 {

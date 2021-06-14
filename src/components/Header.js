@@ -3,8 +3,7 @@ import styled from "styled-components";
 const StyledHeader = styled.div`
   max-width: 25rem;
   justify-content: center;
-  border-bottom: 3px solid ${(props) =>
-      props.dark ? props.theme.colors.darkText : props.theme.colors.lightText};
+  border-bottom: 3px solid ${(props) => props.theme.colors.secondaryDark};
   padding-bottom: .7rem;
   margin-bottom: 2rem;
   h2 {
@@ -14,7 +13,7 @@ const StyledHeader = styled.div`
   }
   h4 {
     color: ${(props) =>
-      props.theme.colors.darkText};
+      props.dark ? props.theme.colors.darkText : props.theme.colors.lightText};
     padding: 1rem;
   }
 `;

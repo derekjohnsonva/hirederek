@@ -9,8 +9,15 @@ const StyledEducation = styled.div`
 `;
 
 export const Box = styled.div`
-  border-style: solid;
-  border-color: ${(props) => props.theme.colors.primaryDark};
+  background: linear-gradient(
+    97.2deg,
+    rgba(255, 255, 255, 0.6) 33.91%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: 10px 10px 4px 0px hsla(152, 32%, 92%, 1);
+  backdrop-filter: ${(props) => props.theme.glass.backdropFilter};
+  border-radius: 20px;
+  border: ${(props) => props.theme.glass.borderTop};
   max-width: 30rem;
   margin: 1rem;
 `;
@@ -19,10 +26,10 @@ export const TwoColumnList = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   list-style-position: outside;
-  & > *{
+  & > * {
     flex: 1 0 calc(50% - 10px);
-    margin-bottom: .5rem;
-  };
+    margin-bottom: 0.5rem;
+  }
 `;
 
 export const BoxHead = styled.div``;
