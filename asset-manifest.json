@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hirederek/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/hirederek/static/js/main.5461fb4e.chunk.js",
-    "main.js.map": "/hirederek/static/js/main.5461fb4e.chunk.js.map",
+    "main.js": "/hirederek/static/js/main.e449181c.chunk.js",
+    "main.js.map": "/hirederek/static/js/main.e449181c.chunk.js.map",
     "runtime-main.js": "/hirederek/static/js/runtime-main.4e3c291c.js",
     "runtime-main.js.map": "/hirederek/static/js/runtime-main.4e3c291c.js.map",
     "static/js/2.167ff1ac.chunk.js": "/hirederek/static/js/2.167ff1ac.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.4e3c291c.js",
     "static/js/2.167ff1ac.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.5461fb4e.chunk.js"
+    "static/js/main.e449181c.chunk.js"
   ]
 }
