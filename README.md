@@ -1,10 +1,9 @@
-# Getting Started with Create React App
+# Hire Derek Johnson
+Hopefully, this will be the place where I show my forward facing personality
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+## Deploying with githubpages
+[This](https://github.com/gitname/react-gh-pages) is a helpful guide.
 ## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
