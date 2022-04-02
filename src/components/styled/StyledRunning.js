@@ -40,6 +40,56 @@ export const PRTable = styled.table`
   };
 `;
 
+export const Tooltip = styled.div`
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+
+  span {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    margin: 0 10px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+
+  &:hover span{
+    visibility: visible;
+  }
+
+  span::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+`;
+
+export const TooltipText = styled.span`
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+
+`;
+
 export const SectionHead = styled.div`
   max-width: 17rem;
   color: ${(props) => props.theme.colors.primaryLight};

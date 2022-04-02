@@ -1,6 +1,6 @@
 import "./Header";
 import Header from "./Header";
-import StyledRunning, { Paragraph, PRTable, SectionHead } from "./styled/StyledRunning";
+import StyledRunning, { Paragraph, PRTable, SectionHead, Tooltip, TooltipText } from "./styled/StyledRunning";
 
 function Running() {
   return (
@@ -35,7 +35,11 @@ function Running() {
           </tr>
           <tr>
             <td>3000S</td>
-            <td>8:36.86</td>
+            <td>
+              <Tooltip> 8:28.72 🇺🇸
+                <span>All American</span>
+              </Tooltip>
+            </td>
           </tr>
           <tr>
             <td>5000</td>
