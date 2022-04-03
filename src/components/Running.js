@@ -37,7 +37,7 @@ function Running() {
             <td>3000S</td>
             <td>
               <Tooltip> 8:28.72 🇺🇸
-                <span>All American</span>
+                <span>All American NCAAs 2021</span>
               </Tooltip>
             </td>
           </tr>
